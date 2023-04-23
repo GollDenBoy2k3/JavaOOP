@@ -24,7 +24,7 @@ public class nhanvien {
         System.out.println("Tuoi"+tuoi);
         System.out.printf("Luong cua %s la : %d",ten,luong);
     }
-    public class MainNhanVien {
+    
         public static void main(String[] args) {
             nhanvien nv= new nhanvien();
             nv.nhaptt();
@@ -32,6 +32,6 @@ public class nhanvien {
             nv.intt();
         }
     
-    }
+    
 
 }
