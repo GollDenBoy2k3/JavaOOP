@@ -1,4 +1,4 @@
-package hinhtrutron;
+package HinhTruTron;
 import java.util.Scanner;
 
 
@@ -41,15 +41,4 @@ public class hinhtrutron {
         System.out.println(" hinh trothe tich co ban kinh %.2f la : %.2f", Bankinh, thetich);
     }
     
-    public static void main(String[] args){
-        hinhtrutron htt = new hinhtrutron();
-        htt.nhapbk();
-        htt.nhapcc();
-        htt.chuvi();
-        htt.dientich();
-        htt.thetich();
-        htt.inracv();
-        htt.inradt();
-        htt.inratt();
-    }
 }

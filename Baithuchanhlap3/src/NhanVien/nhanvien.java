@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package NhanVien;
 
 public class nhanvien {
     public String ten ;
@@ -24,14 +24,4 @@ public class nhanvien {
         System.out.println("Tuoi"+tuoi);
         System.out.printf("Luong cua %s la : %d",ten,luong);
     }
-    
-        public static void main(String[] args) {
-            nhanvien nv= new nhanvien();
-            nv.nhaptt();
-            nv.tinhluong();
-            nv.intt();
-        }
-    
-    
-
 }
