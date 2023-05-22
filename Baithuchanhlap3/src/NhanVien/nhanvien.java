@@ -1,5 +1,7 @@
 package NhanVien;
 
+import java.util.Scanner;
+
 public class nhanvien {
     public String ten ;
     public int tuoi ;
