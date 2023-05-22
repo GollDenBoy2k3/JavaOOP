@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class hinhtrutron {
     
     public float Bankinh, chieucao, chuvi, dientich, thetich;
-    public float Pi =3.14;
+    public float Pi =(float) 3.14;
     
     public void nhapbk(){
         Scanner sc = new Scanner (System.in);
@@ -20,7 +20,8 @@ public class hinhtrutron {
     
     public float chuvi(){
         chuvi= Bankinh * 2 * Pi;
-        return chivi;
+        return chuvi;
+
     }
     public float dientich(){
         dientich = Bankinh * Bankinh * Pi;
@@ -32,13 +33,13 @@ public class hinhtrutron {
         return thetich;
     }
     public void inracv(){
-        System.out.println("chu vi hinh tron co ban kinh %.2f la : %.2f", Bankinh, chieucao);
+        System.out.printf("chu vi hinh tron co ban kinh %.2f la : %.2f", Bankinh, chieucao);
     }
     public void inradt(){
-        System.out.println("dien tich hinh tron co ban kinh %.2f la : %.2f", Bankinh, dientich);
+        System.out.printf("dien tich hinh tron co ban kinh %.2f la : %.2f", Bankinh, dientich);
     }
     public void inratt(){
-        System.out.println(" hinh trothe tich co ban kinh %.2f la : %.2f", Bankinh, thetich);
+        System.out.printf(" hinh trothe tich co ban kinh %.2f la : %.2f", Bankinh, thetich);
     }
     
 }
